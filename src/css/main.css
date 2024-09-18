@@ -4,6 +4,16 @@
   padding: 0;
 }
 
+body {
+  display: flex;
+  width: 1728px;
+  padding: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
 a {
   color: inherit;
 }
@@ -11,4 +21,51 @@ a {
 img,
 video {
   display: block;
+}
+
+.section {
+  display: flex;
+  background: #2a9d8f;
+  color: #ffefef;
+  font-family: "Playfair Display";
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0.263px;
+  padding: 20px;
+  width: 1648px;
+}
+
+.box {
+  height: 130px;
+  flex-shrink: 0;
+  background: #264653;
+  padding: 40px;
+}
+
+.section-1 {
+  justify-content: space-around;
+  padding-right: 431px;
+}
+
+.section-2 {
+  justify-content: flex-end;
+  justify-content: space-around;
+  padding-left: 431px;
+}
+
+.section-3 {
+  flex-direction: column-reverse;
+  gap: 20px;
+}
+
+.section-4 {
+  justify-content: space-between;
+}
+
+.section-5 {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
